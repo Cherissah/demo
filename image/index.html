@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Image - Islandora 8</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Islandora 8</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Welcome to MkDocs</a>
+                            </li>
+                            <li class="active">
+                                <a href="./">Image</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="..">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="disabled">
+                                <a rel="prev" >
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Cherissah/demo/edit/master/docs/image.md">Edit on github</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#adding-an-image">Adding an image</a></li>
+            <li><a href="#uploading-image-to-an-existing-content">Uploading image to an existing Content.</a></li>
+            <li><a href="#creating-repository-collection-for-images">Creating Repository Collection for Images</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<p>The image media item accepts a single file of the following filetypes as input. </p>
+<blockquote>
+<p><em>JPEG</em>,
+<em>PNG</em>,
+<em>JPG</em>,
+<em>GIF</em></p>
+</blockquote>
+<p>To learn more about media please visit the <a href="https://islandora.github.io/documentation/user-documentation/media/">Media Page</a>. </p>
+<h2 id="adding-an-image">Adding an image</h2>
+<p>We can add an image on Islandora 8 by using the existing content collection or creating a collection repository item for uploading videos. </p>
+<h3 id="uploading-image-to-an-existing-content">Uploading image to an existing Content.</h3>
+<p>In order to add an image, you will first login to your islandora 8 site as an administrator. </p>
+<ol>
+<li>Once logged in, on the top left corner of your site, click on the Manage button then click on the Content tab and you will be redirected to the content page as shown below. </li>
+</ol>
+<p><img alt="Content page display" src="../assets/content_page_display.png" /> </p>
+<ol>
+<li>Click on any of the available content (will be using the Icelandic Primer) and you will be redirected to the page related to that content, now click on media as shown below. </li>
+</ol>
+<p><img alt="Manage media page display" src="../assets/manage_media.png" /> </p>
+<ol>
+<li>Click on the + Add media page and select the image option. A form will display fill with required informatin. The allowed types for image is JPG, PNG, GIF and JPEG. In terms of Media use, we will select the original file and also the Preservation Master File as below. </li>
+</ol>
+<p><img alt="Add media item" src="../assets/add_media_image.png" /> </p>
+<p>Once done filling the form, save it and you will be redirected to the Media page, where the saved page is the first on the list. Click on the saved file and view it. </p>
+<p><img alt="Media list" src="../assets/media_list.png" /> </p>
+<h3 id="creating-repository-collection-for-images">Creating Repository Collection for Images</h3>
+<ol>
+<li>From the islandora 8 site, click on the button and you will be redirected to the content page as below. </li>
+</ol>
+<p><img alt="View content page" src="../assets/content_view.png" /> </p>
+<ol>
+<li>Click on the + Add content button and you will be redirected to a page to select the type of content to add, select the Repository Item and continue. </li>
+</ol>
+<p><img alt="Add content (Repository Item)" src="../assets/repository_item.png" /> </p>
+<p>Now we can create our repository item. The form is split in two, General and System. On the general form, we fill in the title of the repository and for the resource type, we can select a collection or leave it blank. </p>
+<p><img alt="Create repository item (General form)" src="../assets/repository_item_general.png" /> </p>
+<p>For the system form, on the model drop-down, we select the Image and for the Display hints we can select Open Seadragon and we can now save the form. </p>
+<p><img alt="Create repository item (System form)" src="../assets/repository_item_system.png" /> </p>
+<ol>
+<li>Once the form is saved you are redirected to the view page for the repository item you have created from there you can click the media button and follow the instructions from step 3 of Adding Images. </li>
+</ol>
+<p>For more information on how to create collections, please visit <a href="https://islandora.github.io/documentation/user-documentation/collections/">Collections</a>.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
